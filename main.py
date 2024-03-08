@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title("Exposée de Joseph")
+st.ballons()
 
 a = open("moi.docx", "rb").read()
 
