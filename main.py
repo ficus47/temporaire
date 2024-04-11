@@ -5,4 +5,4 @@ st.balloons()
 
 a = open("moi.docx", "rb").read()
 
-st.download_button("telecharger l'explosée", data=a, file_name="explosée_de_joseph.docx", mime="plain/text")
+st.download_button("telecharger l'explosée", data=a, file_name="Joseph.txt", mime="text/plain")
