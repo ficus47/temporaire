@@ -5,4 +5,4 @@ st.balloons()
 
 a = open("moi.docx", "rb").read()
 
-st.download_button("telecharger l'explosée", data=a, file_name="explosée_de_joseph.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+st.download_button("telecharger l'explosée", data=a, file_name="explosée_de_joseph.docx", mime="plain/text")
